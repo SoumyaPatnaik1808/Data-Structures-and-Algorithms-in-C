@@ -23,7 +23,7 @@ void reverse(int arr[], int n){
 
     if(n%2==0){   // at even length, we need not swap the middle element, as there is no middle element.
         while(start<end){
-            int temp = arr[start]; 
+            int temp = arr[start]; // swapping the elements
             arr[start] = arr[end];
             arr[end] = temp;
             start++;
